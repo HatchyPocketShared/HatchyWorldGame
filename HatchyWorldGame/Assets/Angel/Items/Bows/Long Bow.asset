@@ -1,0 +1,202 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7f8688024d2994d44a4f720a40efaab2, type: 3}
+  m_Name: Long Bow
+  m_EditorClassIdentifier: 
+  id: 
+  title: Long Bow
+  titles: []
+  description: A simple long bow
+  descriptions: []
+  category: 
+  icon: {fileID: 21300000, guid: b10a2ac879ca3164e8bd67851a5acd9f, type: 3}
+  sellPrice: 15
+  weight: 1
+  maxStack: 1
+  itemRefine: {fileID: 0}
+  lockDuration: 0
+  dropModel: {fileID: 1899427116921868, guid: 731378a9e8363e44f9f97db489208ebc, type: 3}
+  dismantleReturnGold: 0
+  dismantleReturnItems: []
+  cashShopItemGeneratingList: []
+  equipmentModels:
+  - equipSocket: 
+    useInstantiatedObject: 0
+    model: {fileID: 1836698891882270, guid: 999de633b0a5f0848b10c37d407a9d10, type: 3}
+    instantiatedObjectIndex: 0
+    localPosition: {x: 0, y: 0, z: 0}
+    localEulerAngles: {x: 0, y: 0, z: 0}
+    localScale: {x: 0, y: 0, z: 0}
+  requirement:
+    availableClass: {fileID: 0}
+    availableClasses: []
+    level: 5
+    attributeAmounts: []
+  equipmentSet: {fileID: 0}
+  maxDurability: 50
+  destroyIfBroken: 1
+  maxSocket: 0
+  increaseStats:
+    baseStats:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      testStats: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      testStats: 0
+  increaseStatsRate:
+    baseStats:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      testStats: 0
+    statsIncreaseEachLevel:
+      hp: 0
+      hpRecovery: 0
+      hpLeechRate: 0
+      mp: 0
+      mpRecovery: 0
+      mpLeechRate: 0
+      stamina: 0
+      staminaRecovery: 0
+      staminaLeechRate: 0
+      food: 0
+      water: 0
+      accuracy: 0
+      evasion: 0
+      criRate: 0
+      criDmgRate: 0
+      blockRate: 0
+      blockDmgRate: 0
+      moveSpeed: 0
+      atkSpeed: 0
+      weightLimit: 0
+      slotLimit: 0
+      goldRate: 0
+      expRate: 0
+      testStats: 0
+  increaseAttributes: []
+  increaseAttributesRate: []
+  increaseResistances: []
+  increaseArmors: []
+  increaseDamages: []
+  increaseSkillLevels: []
+  selfStatusEffectsWhenAttacking: []
+  enemyStatusEffectsWhenAttacking: []
+  selfStatusEffectsWhenAttacked: []
+  enemyStatusEffectsWhenAttacked: []
+  offHandEquipmentModels: []
+  weaponType: {fileID: 11400000, guid: d433f880a1c9d6149bcbf3b5676ea6a0, type: 2}
+  damageAmount:
+    damageElement: {fileID: 0}
+    amount:
+      baseAmount:
+        min: 25
+        max: 30
+      amountIncreaseEachLevel:
+        min: 0
+        max: 0
+  harvestDamageAmount:
+    baseAmount:
+      min: 12
+      max: 15
+    amountIncreaseEachLevel:
+      min: 0
+      max: 0
+  moveSpeedRateWhileReloading: 1
+  moveSpeedRateWhileCharging: 1
+  moveSpeedRateWhileAttacking: 0
+  ammoCapacity: 1
+  weaponAbility: {fileID: 0}
+  crosshairSetting:
+    hidden: 0
+    expandPerFrameWhileMoving: 0
+    expandPerFrameWhileAttacking: 0
+    shrinkPerFrame: 0
+    shrinkPerFrameWhenAttacked: 0
+    minSpread: 0
+    maxSpread: 0
+    recoilX: 0
+    recoilY: 0
+  launchClip: {fileID: 0}
+  launchClips: []
+  reloadClip: {fileID: 0}
+  reloadClips: []
+  emptyClip: {fileID: 0}
+  emptyClips: []
+  fireType: 0
+  fireStagger: {x: 0, y: 0}
+  fireSpread: 0
+  destroyImmediatelyAfterFired: 0

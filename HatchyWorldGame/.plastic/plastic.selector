@@ -1,0 +1,4 @@
+repository "HatchyWorldGame@Team_Hatchy@cloud"
+  path "/"
+    br "/main"
+    co "/main"
